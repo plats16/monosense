@@ -1,0 +1,96 @@
+/* CSS Reset */
+* { margin: 0; padding: 0; }
+
+/* Basic Responsive Image */
+img {
+  width: 100%; 
+  padding-bottom: 4px;
+  height: auto;
+}
+/* Responsive Images in Columns */
+.breakpoint { /* One column for smartphones */
+  max-width: 100%;
+  display: inline-block;
+}
+@media (min-width: 420px) { /* Two columns for tablets */
+  .breakpoint {
+    max-width: 48%;
+  }
+}
+@media (min-width: 660px) { /* Three columns for large devices */
+  .breakpoint {
+    max-width: 32%;
+  }
+}
+
+.full {
+  width: 100%;
+}
+
+/* Demo Page Styles: Layout */
+.container {
+  
+  margin: 0 auto;
+  text-align:center; 
+  padding-top: 20px;
+
+}
+
+section {
+  margin: 60px auto; 
+  padding-bottom: 20px;
+} 
+
+/* .responsive-images-columns {
+  margin: 60px auto; 
+}  */
+
+.notes {
+  width: 100%;
+  margin: 0 auto;  
+  padding-top: 30px;
+  background: #FAFAFA;
+  color: #343A40;
+  font-weight: 600;
+}
+
+p{
+	margin: 10px; 
+	font-size: 16px;	 
+}  
+/* .footer {
+  
+   left: 0;
+   bottom: 0;
+   width: 100%; 
+   display:block; 
+   padding:4px;
+   background-color:#343A40;
+   color: white;
+   text-align: center; 
+   text-decoration: none;
+}  */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  color: grey; 
+  text-decoration: none;
+}
+
+.fa-facebook { color: white;} 
+.fa-instagram { color: white; } 
+.fa-youtube { color: white; }  
+
+.btn {
+  margin-left: 10px; 
+  padding: 10px;  
+  text-decoration:none;
+  outline: none;
+} 
+
