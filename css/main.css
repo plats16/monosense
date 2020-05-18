@@ -1,0 +1,31 @@
+li,a {
+    color:#494F54;  
+    padding: 6px;
+}
+li.active a { 
+    color: #1F212A; text-decoration: none; 
+    border-bottom: 1px solid #343A40; 
+} 
+a:hover { 
+    color: #343A40; 
+    text-decoration: none; 
+    border-bottom: 1px solid #343A40; 
+} 
+.btn btn-outline-light {color:rgb(249, 249, 250);}
+fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    margin-right:20px;
+   
+  }
+  
+  .fa:hover {
+    color: grey; 
+    text-decoration: none;
+  }
+  
+  .fa-facebook { color: #343A40;;} 
+  .fa-instagram { color: #343A40;; } 
+  .fa-youtube { color: #343A40; }  
