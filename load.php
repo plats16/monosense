@@ -1,7 +1,7 @@
 <?php 
-$conn = new mysqli("localhost","root","","upload"); 
+$conn = new mysqli("qn66usrj1lwdk1cc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","cc6n5y7f0z9ul5u4","lvns0umbcb5e4xhr","g05c6oo23imnkzld");
 
-$sql = "SELECT * FROM images ORDER BY id ASC"; 
+$sql = "SELECT * FROM images ORDER BY ID ASC"; 
 $stmt = $conn->prepare($sql);
 $stmt->execute();
 $result = $stmt->get_result();
